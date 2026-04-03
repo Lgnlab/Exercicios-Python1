@@ -1,0 +1,10 @@
+times = ('Palmeiras', 'São Paulo', 'Corinhthias', 'Bahia', 'Fluminense', 'Athletico-PR', 'Bragantino', 'Grêmio', 'Chapecoense', 'Mirasol', 'Flamengo', 'Coritiba', 'Santos', 'Botafogo', 'EC Vitória', 'Remo', 'Atlético-MG', 'Internacional', 'Cruzeiro', 'Vasco da Gama')
+
+print(f'Tabela do Brasileirão: {times}')
+print(f'\033[32mOs 5 primeiros colocados são: {times[0:5]}\033[m')
+print('=' * 30)
+print(f'\033[31mOs 4 últimos colocados são: {times[16:]}\033[m')
+print('=' * 30)
+print(f'\033[34mA tabela em ordem alfabética:\033[m \033[35m{sorted(times)}\033[m')
+print('=' * 30)
+print(f'\033[33mA chapecoense está em: {times.index('Chapecoense')+1}ª posição\033[m')
