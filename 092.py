@@ -13,6 +13,6 @@ else:
     dados['carteira_trabalho'] = carteira_trabalho
     dados['Ano de contratação'] = int(input('Ano de contratação: '))
     dados['Salario'] = float(input('Salário: R$'))
-    dados['aposentadoria'] = date.today().year - dados['Ano de contratação']
+    dados['aposentadoria'] = dados['Ano de contratação'] + 35
     for k,v in dados.items():
         print(f'{k} tem o valor {v}')
