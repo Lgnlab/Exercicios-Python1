@@ -5,4 +5,5 @@ if dados['media'] >= 7:
     dados['resultado'] = 'Aprovado'
 else:
     dados['resultado'] = 'Reprovado'
-print(dados)
+for k,v in dados.items():
+    print(f'{k}: {v}')
