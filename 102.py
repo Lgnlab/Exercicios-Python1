@@ -3,7 +3,7 @@ def fatorial(num, show=False):
     -> Calcula o Fatorial de um número.
     :param num: O número a ser calculado
     :param show: Mostra o passo a passo do cálculo ou não
-    :return: O fatorial
+    :return: O fatorial desejado
     """
     fat = 1
     print('-' * 24)
