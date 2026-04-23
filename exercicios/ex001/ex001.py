@@ -14,7 +14,7 @@ class Gafanhoto:
 
 # Declaração de Objetos
 g1 = Gafanhoto()
-g1.nome = "Lucas"
+g1.nome = "Augusto"
 g1.idade = 17
 g1.aniversario()
 print(g1.mensagem())
