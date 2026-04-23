@@ -24,6 +24,6 @@ class ContaBancaria:
 
 
 c1 = ContaBancaria(122, "Lucas", 3000)
-c1.depositar(500)
+c1.depositar(300)
 c1.sacar(2000000)
 print(c1)
