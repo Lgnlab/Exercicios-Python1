@@ -21,7 +21,7 @@ Para criar uma nova pessoa, use variável = Gafanhoto(nome, idade)
         return f"Estado: nome = {self.nome} ; idade = {self.idade}"
 
 # Declaração de Objetos
-g1 = Gafanhoto("Maria", 17)
+g1 = Gafanhoto("Ana", 17)
 g1.aniversario()
 print(g1)
 print(g1.__dict__) # Attribute
